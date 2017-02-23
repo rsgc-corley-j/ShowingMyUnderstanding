@@ -31,6 +31,17 @@ let canvas = Canvas(width: 300, height: 300)
 
 // Replace this comment and add your code below...
 
+for y in 0...3{
+
+    for x in 0...6{
+    
+canvas.drawLine(fromX: x * 50, fromY: (y * 100) + 30, toX: x * 50 + 25 , toY: (y * 100) + 30, lineWidth: 10)
+    
+canvas.drawLine(fromX: (x * 50) + 25, fromY: (y * 100) + 10, toX: (x * 50 + 25) + 25, toY: (y * 100) + 10, lineWidth: 10)
+    
+    }
+    
+}
 
 /*:
  ## Template code
