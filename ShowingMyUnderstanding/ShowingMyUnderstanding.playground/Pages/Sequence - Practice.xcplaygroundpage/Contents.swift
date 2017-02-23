@@ -33,6 +33,8 @@ let canvas = Canvas(width: 300, height: 300)
 
 canvas.drawShapesWithBorders = false
 
+//greeen side
+
 canvas.fillColor = Color(hue: 150, saturation: 100, brightness: 100, alpha: 50)
 canvas.lineColor = Color(hue: 150, saturation: 100, brightness: 100, alpha: 50)
 
@@ -40,14 +42,25 @@ canvas.drawEllipse(centreX: 75, centreY: 75, width: 75, height: 75)
 
 canvas.drawEllipse(centreX: 75, centreY: 225, width: 75, height: 75)
 
-
 canvas.drawLine(fromX: 75, fromY: 75, toX: 75, toY: 225, lineWidth: 75)
 
+canvas.drawLine(fromX: 75, fromY: 225, toX: 150, toY: 75, lineWidth: 75)
 
+
+//yellow side
 canvas.fillColor = Color(hue: 50, saturation: 100, brightness: 100, alpha: 50)
 canvas.lineColor = Color(hue: 50, saturation: 100, brightness: 100, alpha: 50)
 
+canvas.drawEllipse(centreX: 225, centreY: 75, width: 75, height: 75)
+
 canvas.drawEllipse(centreX: 225, centreY: 225, width: 75, height: 75)
+
+canvas.drawLine(fromX: 225, fromY: 75, toX: 225, toY: 225, lineWidth: 75)
+
+canvas.drawLine(fromX: 225, fromY: 225, toX: 150, toY: 75, lineWidth: 75)
+
+//middleside
+canvas.drawEllipse(centreX: 150, centreY: 75, width: 75, height: 75)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
