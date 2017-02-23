@@ -32,6 +32,13 @@ let number = random(from: 0, toButNotIncluding: 2)
 
 // Replace this comment and add your code below...
 
+if number == 1 {
+    canvas.drawShapesWithFill = true
+}else{
+    canvas.drawShapesWithFill = false
+}
+
+canvas.drawEllipse(centreX: 150, centreY: 150, width: 100, height: 100, borderWidth: 10)
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
