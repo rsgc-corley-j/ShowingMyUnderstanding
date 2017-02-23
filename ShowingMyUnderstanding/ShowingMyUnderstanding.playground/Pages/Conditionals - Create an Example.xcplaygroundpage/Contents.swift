@@ -39,7 +39,6 @@ if colour == 1 {
 
 
 canvas.drawEllipse(centreX: 150, centreY: 150, width: 100, height: 100, borderWidth: 10)
-
 canvas.drawEllipse(centreX: 125, centreY: 155, width: 10, height: 10, borderWidth: 5)
 canvas.drawEllipse(centreX: 175, centreY: 155, width: 10, height: 10, borderWidth: 5)
 /*:
