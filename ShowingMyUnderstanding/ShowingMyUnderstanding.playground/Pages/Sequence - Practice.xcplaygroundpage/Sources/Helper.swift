@@ -370,6 +370,7 @@ open class Canvas : CustomPlaygroundQuickLookable {
         if let _ = self.imageView.image?.lockFocus() {
             
             // Make the new path
+            NSBezierPath.setDefaultLineCapStyle(NSLineCapStyle.roundLineCapStyle)
             let path = NSBezierPath()
             
             // Set width of border
