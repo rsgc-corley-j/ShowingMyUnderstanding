@@ -45,13 +45,15 @@ let colour = random(from: 0, toButNotIncluding: 7)
     }
     
 //printing aliens
+//good example of arithmetic operators lines 47-51
 canvas.drawEllipse(centreX: x+10, centreY: y, width: 25, height: 50, borderWidth: 10)
 canvas.drawEllipse(centreX: x+5, centreY: y-5, width: 5, height: 10, borderWidth: 5)
 canvas.drawEllipse(centreX: x+15, centreY: y-5, width: 5, height: 10, borderWidth: 5)
 }
 }
 
-
+//assignment statemen operators line 58
+//comparison operators line 59
 //desciding to do nothing or cover the aleins
 let number = random(from: 0, toButNotIncluding: 2)
 if number == 1 {
